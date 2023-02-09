@@ -1,4 +1,4 @@
 # Sorpresa
 
 ## Nota:
-__Mi repositorio es: __
+__Mi repositorio es: https://github.com/samuug/Sorpresa.git__
