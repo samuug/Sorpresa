@@ -5,12 +5,13 @@ import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.Test;
 import org.junit.Assert;
-import org.mockito.internal.util.reflection.Whitebox;
+import org.mockito.InjectMocks;
+
 
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@ExtendWith(MockitoExtension.class)
+
 class GUIFactoryTest {
 
     @InjectMocks
@@ -23,6 +24,8 @@ class GUIFactoryTest {
     @org.junit.jupiter.api.Test
     void createCheckbox() {
     }
+
+
 
     @Nested
     class WhenCreatingButton {
@@ -37,4 +40,6 @@ class GUIFactoryTest {
         void setup() {
         }
     }
+
+
 }
